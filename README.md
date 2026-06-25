@@ -8,9 +8,9 @@
 - **Proxmox:** Versão 9.x
 - **FQDN:** proxmox-00.connect.local
 - **Sistema das máquinas virtuais:** Ubuntu Server 26.04
-- **FQDN:** zabbix.connect.local e grafana.connect.local
+- **FQDN das máquinas virtuais:** zabbix.connect.local e glpi.connect.local
 - 📄 [Guia de Instalação do Zabbix →](Zabbix/zabbix.md)
-- 📄 [Guia de Configuração do Grafana →](Zabbix/grafana.md)
+- 📄 [Guia de Configuração do Grafana →](Zabbix/glpi.md)
 
 ## 🔗 Integração
 
