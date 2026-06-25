@@ -12,12 +12,4 @@ provider "proxmox" {
   endpoint  = var.proxmox_endpoint
   api_token = var.proxmox_api_token
   insecure  = true
-
-  ssh {
-    agent = false
-    node {
-      name    = "proxmox-00"
-      address = "proxmox-00.connect.local"
-    }
-  }
 }

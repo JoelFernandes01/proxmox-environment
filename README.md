@@ -15,3 +15,10 @@
 ## 🔗 Integração
 
 - 📄 [Guia de como integrar Zabbix com GLPI](GLPI/integracao.md)
+
+
+## Se acaso não conseguir acesso via terraform init
+```bash
+export TF_HTTP_MAX_RETRIES=5
+export TF_REGISTRY_CLIENT_TIMEOUT=120
+```
