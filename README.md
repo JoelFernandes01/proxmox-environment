@@ -4,10 +4,10 @@
 
 ## 🚀 Cenários Utilizados
 
-### 1. GLPI
+### 1. Cenário proposto
 - **Proxmox:** Versão 9.x
 - **FQDN:** proxmox-00.connect.local
-- **Sistema:** Ubuntu Server 26.04
+- **Sistema das máquinas virtuais:** Ubuntu Server 26.04
 - **FQDN:** zabbix.connect.local e grafana.connect.local
 - 📄 [Guia de Instalação do Zabbix →](Zabbix/zabbix.md)
 - 📄 [Guia de Configuração do Grafana →](Zabbix/grafana.md)
