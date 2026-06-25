@@ -9,14 +9,14 @@ vm_list = [
   {
     name      = "zabbix"
     hostname  = "zabbix.connect.local"
-    vmid      = 100
+    vmid      = 2000
     cores     = 2
     memory    = 4096
     ip_config = [
       {
         ipv4 = {
-          address = "192.168.1.10/24"
-          gateway = "192.168.1.1"
+          address = "10.0.39.220"
+          gateway = "10.0.39.1"
         }
       }
     ]
@@ -24,14 +24,14 @@ vm_list = [
   {
     name      = "glpi"
     hostname  = "glpi.connect.local"
-    vmid      = 101
+    vmid      = 2001
     cores     = 2
     memory    = 4096
     ip_config = [
       {
         ipv4 = {
-          address = "192.168.1.11/24"
-          gateway = "192.168.1.1"
+          address = "10.0.39.222"
+          gateway = "10.0.39.1"
         }
       }
     ]
